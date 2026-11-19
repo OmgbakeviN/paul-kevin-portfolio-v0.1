@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Paul Kevin Omgba — Software Engineer and AI Automation</title>
+  <desc id="desc">Dark violet portfolio cover with editorial typography and a glowing technological orb.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15111c"/>
+      <stop offset=".6" stop-color="#20172c"/>
+      <stop offset="1" stop-color="#100f18"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#bc95fc" stop-opacity=".78"/>
+      <stop offset=".37" stop-color="#8862d1" stop-opacity=".31"/>
+      <stop offset="1" stop-color="#5e397f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orb" x1=".2" y1=".1" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7b0ff"/>
+      <stop offset=".23" stop-color="#9770de"/>
+      <stop offset=".61" stop-color="#452b70"/>
+      <stop offset="1" stop-color="#130e23"/>
+    </linearGradient>
+    <pattern id="grid" width="73" height="73" patternUnits="userSpaceOnUse">
+      <path d="M73 0H0V73" fill="none" stroke="#d1b7e8" stroke-opacity=".075" stroke-width="1"/>
+    </pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="23"/></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="980" cy="303" r="270" fill="url(#aura)"/>
+  <ellipse cx="978" cy="302" rx="207" ry="206" fill="#ba88e5" opacity=".25" filter="url(#blur)"/>
+
+  <g transform="translate(966 302)">
+    <circle r="172" fill="url(#orb)" opacity=".92"/>
+    <circle r="150" fill="none" stroke="#f2ceff" stroke-opacity=".22" stroke-width="1"/>
+    <ellipse rx="229" ry="64" transform="rotate(-29)" fill="none" stroke="#d9afff" stroke-opacity=".8" stroke-width="2"/>
+    <ellipse rx="203" ry="111" transform="rotate(51)" fill="none" stroke="#bc9def" stroke-opacity=".42" stroke-width="1.4"/>
+    <ellipse rx="89" ry="207" transform="rotate(19)" fill="none" stroke="#d9bbfd" stroke-opacity=".24" stroke-width="1"/>
+    <circle cx="-181" cy="102" r="6" fill="#e4cbff"/>
+    <circle cx="164" cy="-120" r="4" fill="#f4d0ff"/>
+    <circle cx="47" cy="-192" r="3" fill="#e8ccff"/>
+  </g>
+
+  <g font-family="DejaVu Sans, sans-serif">
+    <rect x="72" y="66" width="51" height="51" rx="11" fill="#c6a7f2"/>
+    <text x="81" y="102" font-size="26" font-weight="700" letter-spacing="-3" fill="#1b102a">PK.</text>
+    <text x="145" y="99" font-size="17" font-weight="700" letter-spacing="2.5" fill="#e6dcf2">PAUL KEVIN OMGBA</text>
+    <rect x="75" y="174" width="32" height="3" fill="#c5a0ff"/>
+    <text x="76" y="209" font-size="16" letter-spacing="3" fill="#a99ab7">DEVELOPER • CREATOR • INSTRUCTOR</text>
+    <text x="67" y="306" font-size="72" font-weight="700" letter-spacing="-4" fill="#f7f3fc">Software</text>
+    <text x="67" y="392" font-size="72" font-weight="700" letter-spacing="-4" fill="#f7f3fc">Engineer.</text>
+    <text x="69" y="474" font-family="DejaVu Serif,serif" font-size="58" font-style="italic" letter-spacing="-3" fill="#c7a7f4">AI &amp; automation.</text>
+  </g>
+
+  <path d="M74 540H1127" stroke="#d8c9ed" stroke-opacity=".2" stroke-width="1"/>
+  <text x="75" y="578" font-family="DejaVu Sans Mono,monospace" font-size="14" letter-spacing="1" fill="#bbadcb">REACT / DJANGO / PYTHON / THREE.JS</text>
+  <text x="1126" y="578" font-family="DejaVu Sans Mono,monospace" font-size="14" text-anchor="end" letter-spacing="1" fill="#bbadcb">YAOUNDÉ, CAMEROON</text>
+</svg>
