@@ -1,0 +1,112 @@
+/**
+ * V0.6 — Interactive Skills Explorer.
+ * Add / edit skill groups here; the 3D artwork, accordion and hover logos adapt.
+ * `proofs` reference existing ids in src/data/projects.js, or a page anchor.
+ */
+export const skillGroups = [
+  {
+    id: 'fullstack',
+    title: 'Full-Stack Engineering',
+    eyebrow: 'END-TO-END SYSTEMS',
+    summary: 'I connect thoughtful interfaces to reliable APIs, authentication and data models.',
+    focus: 'From first interaction to the database.',
+    accent: '#B49AF3',
+    technologies: [
+      { name: 'React', icon: 'react', color: '#61DAFB' },
+      { name: 'Django', icon: 'django', color: '#6CC3A0' },
+      { name: 'Python', icon: 'python', color: '#F7C970' },
+      { name: 'Django REST', icon: 'django', color: '#B8E0CC' },
+      { name: 'JavaScript', icon: 'javascript', color: '#F5CE56' },
+      { name: 'JWT Auth', mark: 'JWT' },
+    ],
+    proofs: [
+      { projectId: 'signum-qr' },
+      { projectId: 'shorty' },
+      { projectId: 'seedflow' },
+    ],
+  },
+  {
+    id: 'automation',
+    title: 'AI & Automation',
+    eyebrow: 'INTELLIGENT WORKFLOWS',
+    summary: 'I build practical agents, integrations and middleware that connect real business processes.',
+    focus: 'Intelligence built around real workflows.',
+    accent: '#BDA1FF',
+    technologies: [
+      { name: 'n8n', icon: 'n8n', color: '#F69D9D' },
+      { name: 'Python', icon: 'python', color: '#F7C970' },
+      { name: 'WhatsApp', icon: 'whatsapp', color: '#77DFA0' },
+      { name: 'AI Agents', mark: 'AI' },
+      { name: 'Middleware', mark: 'MW' },
+    ],
+    proofs: [
+      { projectId: 'cogit-business-agent' },
+      { projectId: 'smartsana-academy-bot' },
+      { projectId: 'bewise-parents-agent' },
+    ],
+  },
+  {
+    id: 'mobile',
+    title: 'Mobile Experiences',
+    eyebrow: 'NATIVE-FEELING PRODUCTS',
+    summary: 'I design cross-platform interfaces and build the flows that make mobile products intuitive.',
+    focus: 'Useful experiences that fit in your hand.',
+    accent: '#F3CD7B',
+    technologies: [
+      { name: 'React Native', icon: 'react', color: '#61DAFB' },
+      { name: 'Expo', icon: 'expo', color: '#DCD4F3' },
+      { name: 'Android', icon: 'android', color: '#9BDA9B' },
+      { name: 'App Deployment', mark: 'APP' },
+      { name: 'Mobile UI', mark: 'UI' },
+    ],
+    proofs: [{ projectId: 'mboa-flix' }],
+  },
+  {
+    id: 'creative',
+    title: 'Creative Technology',
+    eyebrow: 'DESIGN MEETS ENGINEERING',
+    summary: 'I blend interactive 3D, visual storytelling and motion with fast, usable interfaces.',
+    focus: 'Digital experiences with dimension.',
+    accent: '#E9A8CE',
+    technologies: [
+      { name: 'Three.js', icon: 'threedotjs', color: '#F2E9FC' },
+      { name: 'Blender', icon: 'blender', color: '#F9B476' },
+      { name: 'GSAP', icon: 'gsap', color: '#B1E68E' },
+      { name: 'React', icon: 'react', color: '#61DAFB' },
+      { name: 'CSS Motion', mark: 'CSS' },
+    ],
+    proofs: [{ projectId: 'pomera' }],
+  },
+  {
+    id: 'tooling',
+    title: 'Data & Developer Tools',
+    eyebrow: 'THE UNDERLYING SYSTEMS',
+    summary: 'I work with relational databases, version control and the tools behind sustainable delivery.',
+    focus: 'Reliable foundations for ambitious ideas.',
+    accent: '#94C6D9',
+    technologies: [
+      { name: 'PostgreSQL', icon: 'postgresql', color: '#A9C4E8' },
+      { name: 'MySQL', icon: 'mysql', color: '#F5BD7F' },
+      { name: 'Git', icon: 'git', color: '#F39475' },
+      { name: 'GitHub', icon: 'github', color: '#E9DEFA' },
+      { name: 'REST APIs', mark: 'API' },
+    ],
+    proofs: [{ projectId: 'signum-qr' }, { projectId: 'seedflow' }],
+  },
+  {
+    id: 'education',
+    title: 'Technical Education & Strategy',
+    eyebrow: 'KNOWLEDGE IN MOTION',
+    summary: 'I translate complex topics into French-language lessons and help technical programs reach their learners.',
+    focus: 'Building knowledge, not just software.',
+    accent: '#E5B882',
+    technologies: [
+      { name: 'Video Masterclasses', mark: 'VID' },
+      { name: 'Coding Instruction', mark: 'DEV' },
+      { name: 'Game Design', mark: '3D' },
+      { name: 'Digital Marketing', mark: 'MKT' },
+      { name: 'French Curriculum', mark: 'FR' },
+    ],
+    proofs: [{ label: 'Nazli Tech School / Experience', href: '#experience' }],
+  },
+];

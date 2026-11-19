@@ -1,0 +1,98 @@
+/**
+ * Career entries, displayed newest-first in the Experience section.
+ * Add another object to this array to display a new role automatically.
+ * Only include links to confirmed employers; unknown logos use a text mark.
+ */
+export const experience = [
+  {
+    id: 'nazli-tech-school',
+    company: 'Nazli Tech School',
+    role: 'AI Programming Instructor & Digital Marketing Specialist',
+    type: 'Freelance',
+    period: 'NOV 2026 — PRESENT',
+    place: 'Morocco',
+    mode: 'Remote',
+    logo: '/images/experience/nazli.webp',
+    logoStyle: 'nazli',
+    url: 'https://www.nazlitechschool.org/',
+    description: 'Teaching complex technology in a way that feels accessible, practical and human.',
+    highlights: [
+      'Produce French-language video masterclasses and technical tutorials for the SynthCode Continuum Game Design and Development program.',
+      'Lead the video instruction for the official French textbook curriculum, connecting interactive coding exercises with structured learning.',
+      'Develop digital marketing strategies to introduce technical programs to international student communities.',
+      'Maintain high educational and technical standards across software engineering, game development and AI-driven workflows.',
+    ],
+    tags: ['AI Education', 'Video Masterclasses', 'Game Development', 'Digital Marketing'],
+  },
+  {
+    id: 'smartsana-app-development',
+    company: 'Smartsana Academy',
+    role: 'Application Developer',
+    type: 'Internship',
+    period: 'JUN 2026 — PRESENT',
+    place: 'Yaoundé, Cameroon',
+    mode: 'Hybrid',
+    logo: '/images/experience/smartsana.webp',
+    logoStyle: 'smartsana',
+    description: 'Building software products that combine automation, mobile development and practical problem-solving.',
+    highlights: [
+      'Designed an AI agent for managing WhatsApp groups.',
+      'Developed and deployed mobile applications.',
+      'Built Python middleware to connect application services.',
+    ],
+    tags: ['AI Agents', 'Mobile Apps', 'Python Middleware'],
+  },
+  {
+    id: 'cogit-business',
+    company: 'CogIT Business',
+    role: 'Artificial Intelligence Specialist',
+    type: 'Fixed-term contract',
+    period: 'MAY 2026 — PRESENT',
+    place: 'Côte d’Ivoire',
+    mode: 'Remote',
+    // Official company logo not yet verified: a typographic mark is used instead.
+    monogram: 'COGIT',
+    logoStyle: 'cogit',
+    description: 'Helping companies translate repetitive processes into reliable, intelligent workflows.',
+    highlights: [
+      'Design custom AI agents and automation solutions for business processes.',
+      'Develop middleware and systems integration workflows intended to improve operational efficiency.',
+    ],
+    tags: ['AI Automation', 'Custom Agents', 'Middleware'],
+  },
+  {
+    id: 'independent-freelance',
+    company: 'Independent Freelance',
+    role: 'Full-Stack Developer',
+    type: 'Self-employed',
+    period: 'JAN 2023 — PRESENT',
+    place: 'Cameroon',
+    mode: 'Remote',
+    monogram: 'PK.',
+    logoStyle: 'personal',
+    description: 'Turning client ideas into complete digital products, from interface to database.',
+    highlights: [
+      'Designed and developed full-stack web applications using React and Django.',
+      'Built REST APIs with JWT-based authentication and connected frontend and backend systems.',
+      'Worked with PostgreSQL, MySQL, Git and GitHub throughout the development process.',
+    ],
+    tags: ['React', 'Django REST', 'JWT', 'PostgreSQL'],
+  },
+  {
+    id: 'smartsana-frontend',
+    company: 'Smartsana Academy',
+    role: 'Frontend Developer Intern',
+    type: 'Academic internship',
+    period: 'JUN — AUG 2025',
+    place: 'Yaoundé, Cameroon',
+    mode: 'Hybrid',
+    logo: '/images/experience/smartsana.webp',
+    logoStyle: 'smartsana',
+    description: 'An early professional chapter focused on React, frontend development and web design.',
+    highlights: [
+      'Worked on frontend projects using React.js.',
+      'Developed practical web design and frontend engineering skills during an academic internship.',
+    ],
+    tags: ['React.js', 'Frontend', 'Web Design'],
+  },
+];

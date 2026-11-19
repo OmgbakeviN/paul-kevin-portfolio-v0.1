@@ -236,6 +236,16 @@ export default function SelectedWork() {
     if (activeProject && dialogRef.current && !dialogRef.current.open) dialogRef.current.showModal();
   }, [activeProject]);
 
+  // Skill proof links open the very same project detail dialogs as Selected Work.
+  useEffect(() => {
+    const onOpenFromSkill = (event) => {
+      const project = selectedProjects.find(({ id }) => id === event.detail?.projectId);
+      if (project) setActiveProject(project);
+    };
+    window.addEventListener('portfolio:open-project', onOpenFromSkill);
+    return () => window.removeEventListener('portfolio:open-project', onOpenFromSkill);
+  }, []);
+
   return <section className="sw-section" id="work" ref={sectionRef} aria-labelledby="sw-title">
     <div className="sw-background-glow" aria-hidden="true" />
     <div className="sw-shell">
